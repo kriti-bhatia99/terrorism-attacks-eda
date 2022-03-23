@@ -2,9 +2,9 @@
 import pandas as pd
 import webbrowser
 import dash
-import dash_html_components as html
+from dash import html
 from dash.dependencies import Input, Output 
-import dash_core_components as dcc 
+from dash import dcc 
 import plotly.graph_objects as go  
 import plotly.express as px
 from dash.exceptions import PreventUpdate
