@@ -11,7 +11,8 @@ from dash.exceptions import PreventUpdate
 
 
 # Declaring Global variables
-app = dash.Dash()
+app = dash.Dash(__name__)
+server = app.server
 project_name = None
 
 # Defining My Functions
