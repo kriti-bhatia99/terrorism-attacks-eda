@@ -387,7 +387,7 @@ def set_city_options(state_value):
 # Main Function 
 def main():
     load_data()
-    open_browser()
+    # open_browser()
     
     global project_name
     project_name = "Terrorism Analysis with Insights" 
