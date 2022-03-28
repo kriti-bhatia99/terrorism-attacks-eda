@@ -12,6 +12,7 @@ from dash.exceptions import PreventUpdate
 
 # Declaring Global variables
 app = dash.Dash(__name__)
+server = app.server
 project_name = None
 
 # Defining My Functions
@@ -394,7 +395,6 @@ def main():
     global app
     app.layout = create_app_ui()
     app.title = project_name
-    server = app.server
     app.run_server() 
   
     print("End of main function")
